@@ -1,0 +1,122 @@
+/*
+ * Affiliates
+ */
+#affwp-affiliate-dashboard-tabs {
+    text-align: center;
+}
+#affwp-affiliate-dashboard ul {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    -ms-box-pack: center;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+}
+#affwp-affiliate-dashboard ul li {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 0;
+    text-align: center;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+#affwp-affiliate-dashboard-tabs a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2.5;
+}
+#affwp-affiliate-dashboard-tabs a {
+    vertical-align: middle;
+    font-size: 0.75em;
+}
+#affwp-affiliate-dashboard-tabs li.active a {
+    color: #74777b;
+}
+#affwp-affiliate-dashboard-tabs a:focus {
+    outline: none;
+}
+.affwp-affiliate-dashboard-tabs {
+    background: rgba(40,44,42,0.05);
+}
+#affwp-affiliate-dashboard ul {
+    border: 4px solid transparent;
+}
+#affwp-affiliate-dashboard ul li a {
+    margin: 0 2px;
+    background-color: #f7f7f7;
+    color: #51b8f2;
+    transition: background-color 0.2s, color 0.2s;
+}
+#affwp-affiliate-dashboard ul li a:hover,
+#affwp-affiliate-dashboard ul li a:focus {
+    background: #51b8f2;
+    color: #fff;
+}
+#affwp-affiliate-dashboard ul li a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 10px;
+    margin-bottom: 2px;
+}
+#affwp-affiliate-dashboard ul li.active a {
+    background: #51b8f2;
+    color: #fff;
+}
+.affwp-affiliate-dashboard {
+    max-width: 1200px;
+}
+.affwp-affiliate-dashboard-tabs li {
+    border: 1px solid rgba(40,44,42,0.1);
+}
+.affwp-affiliate-dashboard-tabs li:not(:last-child) {
+    border-right: none;
+}
+.affwp-affiliate-dashboard-tabs li.active {
+    border-top-color: #51b8f2;
+    border-bottom: none;
+}
+.affwp-affiliate-dashboard-tabs a {
+    padding: 0.65em 0 0.5em;
+    background: rgba(40,44,42,0.05);
+    color: #74777b;
+    line-height: 1;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+.affwp-affiliate-dashboard-tabs a:hover,
+.affwp-affiliate-dashboard-tabs a:focus {
+    color: #51b8f2;
+}
+.affwp-affiliate-dashboard-tabs li.active a {
+    background: none;
+    box-shadow: inset 0 3px 0 #51b8f2;
+    color: #51b8f2;
+}
+.affwp-affiliate-dashboard-tabs a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 0.5em;
+}
